@@ -1,0 +1,30 @@
+*{
+    background-color: black;
+    color: white;
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}   
+
+html{
+    margin: 3em 20vw;
+    /* border: 1px solid white; */
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.box p{
+    max-width: 40vw;
+    cursor: pointer;
+}
+
+hr{
+    color: rgb(74, 74, 74);
+    margin-bottom: 1em;
+}
