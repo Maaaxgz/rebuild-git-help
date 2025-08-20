@@ -12,19 +12,32 @@ html{
     /* border: 1px solid white; */
 }
 
+h1{
+    font-size: 4em;
+    font-weight:500;
+}
+
+header{
+    margin: 3em 0;
+}
+
 .box{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.box p:hover{
+    color: green;
 }
 
 .box p{
     max-width: 40vw;
-    cursor: pointer;
 }
 
 hr{
     color: rgb(74, 74, 74);
-    margin-bottom: 1em;
+    margin: 0 0 1em 0;
 }
